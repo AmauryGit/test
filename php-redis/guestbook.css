@@ -1,0 +1,77 @@
+
+body {
+color:black;
+background-color:white;
+background-repeat:no-repeat;
+background-position:left top;
+}
+fieldset{
+	padding:10px;
+	text-align: center;
+}
+input{
+	    width: -webkit-fill-available;
+    display: block;
+    height: 29px;
+    font-size: 20px;
+    border: 2px solid;
+}
+button{
+	border: none;
+    background: #115C79;
+    color: white;
+    font-size: 20px;
+    padding: 7px 50px;
+    border-radius: 0px;
+}
+button:hover{
+	cursor:pointer;
+}
+.messagebox{
+    padding: 10px 20px;
+    border: 1px solid;
+    margin: 10px 0px;
+    font-size: 21px;
+	height:250px;
+    box-shadow: 0px 0px 1px black;
+	overflow:scroll;
+}
+.messagess{
+    position: relative;
+    padding: 10px 20px;
+    margin: 10px 0px 25px 0px;
+    color: #000;
+    box-sizing: border-box;
+    max-width: 300px;
+    min-width: 80px;
+    min-height: 38px;
+}
+.messagess:before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border: 2px solid #115C79;
+    border-radius: 2px;
+    box-sizing: border-box;
+    clip-path: polygon(0% 105%, 0% 0%, 105% 0%, 105% 105%, 43px 105%, 43px 80%, 21px 80%, 21px 105%);
+}
+.messagess:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 25px;
+    height: 20px;
+    background: #115C79;
+    top: calc(100% - 1px);
+    left: 20px;
+    box-sizing: border-box;
+    clip-path: polygon(0 0, 0% 100%, 100% 0%, calc(100% - 2px) 0, 1px calc(100% - 2px), 1px 0);
+}
+.custommsg{
+	float:right;
+	margin-right: 310px;
+}
